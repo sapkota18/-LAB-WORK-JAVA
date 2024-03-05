@@ -31,8 +31,4 @@ public class Triangle {
         System.out.println("Area of Triangle: " + triangleArea);
         System.out.println("Perimeter of Triangle: " + trianglePerimeter);
     }
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> dd531d32865e82036409915c1f96f92996e663e3

@@ -15,8 +15,8 @@ public class Rectangle {
         Rectangle R2 = new Rectangle(5, 8);
         int area1 = R1.Area();
         int area2 = R2.Area();
-        System.out.println("Area of of Rectangle1: " + area1);
-        System.out.println("Area of of Rectangle2: " + area2);
+        System.out.println("Area of  Rectangle1: " + area1);
+        System.out.println("Area of Rectangle2: " + area2);
     }
 
 }

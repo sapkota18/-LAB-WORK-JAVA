@@ -21,7 +21,7 @@ public class VowelConsonant {
                     System.out.println(ch + " is a Consonant");
                 }
             } else {
-                System.out.println("Invalid Input");
+                System.out.println("Invalid Input ");
             }
         }
     }

@@ -1,4 +1,4 @@
-// Lab work no.17 
+// Lab work no.17  
 public class PassedByReference {
     int a = 40, b = 100;
 

@@ -1,3 +1,5 @@
+
+// lab work no.12
 import java.lang.Math;
 
 public class Triangle {

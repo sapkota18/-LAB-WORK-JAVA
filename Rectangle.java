@@ -1,3 +1,4 @@
+// lab no.15
 public class Rectangle {
     int length, breadth;
 

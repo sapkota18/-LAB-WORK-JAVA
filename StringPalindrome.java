@@ -5,6 +5,7 @@ public class StringPalindrome {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a string: ");
         String str = sc.nextLine();
+        sc.close();
         StringBuffer sb = new StringBuffer(str);
         sb.reverse();
         String reversedStr = sb.toString();
@@ -13,6 +14,5 @@ public class StringPalindrome {
         } else {
             System.out.println(str + " is not a palindrome");
         }
-        sc.close();
     }
 }

@@ -1,6 +1,6 @@
 import java.util.Scanner;
 public class Multiplication {
-    public static void main(String args[])
+    public static void main(String[] args)
     {
         try (Scanner scanner = new Scanner(System.in)) {
             int i,n;

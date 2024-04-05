@@ -20,3 +20,4 @@ public class CompareConcatenation {
         System.out.println("Concatenation: " + str1.concat(str2));
     }
 }
+

@@ -4,7 +4,7 @@ class Shape {
     }
 }
 
-class Rectangle extends Shape {
+class RectangleA extends Shape {
     public void displayRectangle() {
         System.out.println("This is rectangular shape");
     }
@@ -16,7 +16,7 @@ class Circle extends Shape {
     }
 }
 
-class Square extends Rectangle {
+class SquareA extends RectangleA {
     public void displaySquare() {
         System.out.println("Square is a rectangle");
     }
@@ -24,7 +24,7 @@ class Square extends Rectangle {
 
 public class Main2 {
     public static void main(String[] args) {
-        Square square = new Square();
+        SquareA square = new SquareA();
         square.displayShape();
         square.displayRectangle();
     }

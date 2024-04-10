@@ -12,7 +12,7 @@ class RectangleA extends Shape {
 
 class Circle extends Shape {
     public void displayCircle() {
-        System.out.println("This is circular shape");
+        System.out.println("This is circular shape"); 
     }
 }
 

@@ -1,3 +1,4 @@
+// LAB No.22
 class Rectangle {
     private int length;
     private int breadth;

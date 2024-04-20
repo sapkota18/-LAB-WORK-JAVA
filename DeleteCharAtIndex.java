@@ -4,6 +4,7 @@ public class DeleteCharAtIndex {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter a string: ");
         String str = scanner.nextLine();
+        scanner.close();
         if (str.length() >= 4) {
             StringBuffer s = new StringBuffer(str);
             System.out.println("Character at index 3: " + str.charAt(3));

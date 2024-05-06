@@ -1,17 +1,20 @@
-import java.util.Scanner;
 public class SimpleInterest {
-    public static void main(String args[])
-    {
-        Scanner scanner=new Scanner(System.in);
-        double principle, rate,time,interest;
-        System.out.print("Enter Principle,rate and time:");
-        principle=scanner.nextDouble();
-        rate=scanner.nextDouble();
-        time=scanner.nextDouble();
-        interest=(principle*rate*time)/100;
-        System.out.print("Simple interest="+interest);
-        scanner.close();
+    public static void main(String args[]) {
+        if (args.length != 3) {
+            System.out.println("Usage: java SimpleInterest <principal> <rate> <time>");
+            return;
+        }
 
+        double principal = Double.parseDouble(args[0]);
+        double rate = Double.parseDouble(args[1]);
+        double time = Double.parseDouble(args[2]);
+
+        double interest = (principal * rate * time) / 100;
+
+        System.out.println("Principal: " + principal);
+        System.out.println("Rate: " + rate);
+        System.out.println("Time: " + time);
+        System.out.println("Simple Interest: " + interest);
     }
-    
 }
+

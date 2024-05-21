@@ -16,43 +16,49 @@ public class KeyListenerExample extends JFrame implements KeyListener {
         this.setLayout(null);
         this.setVisible(true);
         this.addKeyListener(this);
-
-        this.getContentPane().setBackground(new Color(255,0,0));
-        icon=new ImageIcon("rocket.png");
-        label=new JLabel(icon);
+        this.getContentPane().setBackground(new Color(0, 255, 0));
+        label = new JLabel(icon);
         label.setIcon(icon);
         label.setBounds(0, 0, 100, 100);
-       // label.setBackground(Color.red);
-       // label.setOpaque(true);
+        label.setBackground(Color.red);
+        label.setOpaque(true);
         this.add(label);
 
     }
 
     public void keyTyped(KeyEvent e) {
         // This method is called when a key is typed
-        switch(e.getKeyChar()){
-            case 'a':label.setLocation(label.getX()-10,label.getY());
-            break;
-            case 'w':label.setLocation(label.getX()+10,label.getY());
-            break;
-            case 's':label.setLocation(label.getX()+10,label.getY()-10);
-            break;
-            case 'd':label.setLocation(label.getX()+10,label.getY()+10);
-            break;
+        switch (e.getKeyChar()) {
+            case 'a':
+                label.setLocation(label.getX() - 10, label.getY());
+                break;
+            case 'w':
+                label.setLocation(label.getX() + 10, label.getY());
+                break;
+            case 's':
+                label.setLocation(label.getX() + 10, label.getY() - 10);
+                break;
+            case 'd':
+                label.setLocation(label.getX() + 10, label.getY() + 10);
+                break;
         }
     }
 
     public void keyPressed(KeyEvent e) {
         // This method is called when a key is pressed
-        switch(e.getKeyCode()){
-            case 37:label.setLocation(label.getX()-10,label.getY());
-            break;
-            case 39:label.setLocation(label.getX()+10,label.getY());
-            break;
-            case 38 :label.setLocation(label.getX()+10,label.getY()-10);
-            break;
-            case 40:label.setLocation(label.getX()+10,label.getY()+10);
-            break;
+        switch (e.getKeyCode()) {
+            case 37:
+                label.setLocation(label.getX() - 10, label.getY());
+                break;
+            case 39:
+                label.setLocation(label.getX() + 10, label.getY());
+                break;
+            case 38:
+                label.setLocation(label.getX() + 10, label.getY() - 10);
+                break;
+            case 40:
+                label.setLocation(label.getX() + 10, label.getY() + 10);
+                break;
         }
     }
 
